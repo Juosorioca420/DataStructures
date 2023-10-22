@@ -1,3 +1,4 @@
+
 class HeadNode<T>{
     private T value;
     private HeadNode<T> next;

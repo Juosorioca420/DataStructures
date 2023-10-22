@@ -5,8 +5,8 @@ public class BinaryTreeTest {
     public static void main(String[] args) {
         System.out.println();
 
-        //RecursiveBST<Integer> bst = new RecursiveBST<>();
-        IterativeBST<Integer> bst = new IterativeBST<>();
+        RecursiveBST<Integer> bst = new RecursiveBST<>();
+        //IterativeBST<Integer> bst = new IterativeBST<>();
 
         // Casos de prueba para insert
         bst.insert(10);

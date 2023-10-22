@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Code2 {
+public class TeamQueue{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int scenario = 1;

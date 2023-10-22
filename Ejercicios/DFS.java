@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 
-public class Code3 {
+public class DFS{
     public static void main( String[] args ) throws IOException{
 
         int[][] tablero = new int[8][8];
