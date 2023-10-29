@@ -42,7 +42,6 @@ public class fromListToBST {
         if( head == tail ){ return null; }
 
         Node mitad = head, liebre = head;
-
         while( liebre != tail && liebre.getNext() != tail ){ 
             mitad = mitad.getNext();
             liebre = liebre.getNext().getNext();
